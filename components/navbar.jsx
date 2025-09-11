@@ -44,7 +44,7 @@ export default function Navbar() {
   ];
 
   return (
-    <div className="flex items-center flex-wrap gap-2 mb-8">
+    <div className="flex justify-center items-center flex-wrap gap-2 mb-8">
       {navItems.map((item) => (
         <Tab
           key={item.href}

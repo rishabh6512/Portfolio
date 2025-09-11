@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import close from "../images/close.svg";
 
 export default function ProjectsSection() {
   const [isLargeScreen, setIsLargeScreen] = useState(false);

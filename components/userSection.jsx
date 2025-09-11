@@ -9,7 +9,7 @@ const UsesSection = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
     >
-      <motion.h2 className="text-2xl font-bold mb-6 text-white border-b border-gray-700 pb-2" initial={{ y: -20 }} animate={{ y: 0 }} transition={{ duration: 0.5 }}>
+      <motion.h2 className="text-2xl font-bold mb-6 text-white border-b border-gray-700 pb-2 text-center" initial={{ y: -20 }} animate={{ y: 0 }} transition={{ duration: 0.5 }}>
         Tools & Technologies
       </motion.h2>
       <motion.p className="mb-8 text-gray-400 leading-relaxed" initial={{ y: -20 }} animate={{ y: 0 }} transition={{ duration: 0.5, delay: 0.1 }}>

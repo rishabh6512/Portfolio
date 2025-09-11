@@ -1,14 +1,12 @@
 'use client';
 import Image from "next/image";
-import ProfileImage from "../images/profile.jpg";
+import ProfileImage from "../assets/profile.jpg";
+import { Typewriter } from 'react-simple-typewriter';
 
 export default function Profile() {
-
   return (
-    <div>
-      <div
-        className="cursor-pointer hover:opacity-90 transition-opacity duration-200 w-fit"
-      >
+    <div className="flex flex-col items-center justify-center text-center mt-6">
+      <div className="cursor-pointer hover:opacity-90 transition-opacity duration-200 w-fit">
         <Image
           src={ProfileImage}
           alt="Rishabh Sharma - Fresher"
@@ -17,10 +15,22 @@ export default function Profile() {
         />
       </div>
 
-      <h1 className="font-medium text-gray-100 mt-2 text-xl font-heading">
-        Rishabh Sharma
+      <h1 className="font-medium text-gray-100 mt-4 text-xl font-heading">
+        <Typewriter
+          words={[
+            "I am Rishabh Sharma",
+            "Full-Stack Developer",
+            "Always Learning"
+          ]}
+          loop={true}
+          cursor
+          cursorStyle="_"
+          typeSpeed={70}
+          deleteSpeed={50}
+          delaySpeed={1500}
+        />
       </h1>
-      <p className="text-gray-400">Fresher</p>
+      <p className="text-gray-400 mt-2">Fresher</p>
     </div>
   );
 }

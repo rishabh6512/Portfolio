@@ -1,32 +1,36 @@
-import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
+'use client';
+import Image from "next/image";
+import TwitterIcon from "../assets/x.svg";
+import GithubIcon from "../assets/github.svg";
+import LinkedinIcon from "../assets/linkedin.svg";
 
 export default function Social() {
   return (
-    <div className="flex flex-row justify-between items-center mt-6">
-      <div className="flex flex-row gap-x-3">
+    <div className="flex justify-center mt-6">
+      <div className="flex flex-row gap-x-6">
         <a
           target="_blank"
           rel="noreferrer"
           href="https://x.com/rishabh6512"
-          className="text-gray-300 hover:text-[#1DA1F2] transition-colors"
+          className="transition-transform hover:scale-110"
         >
-          <FaTwitter size={25} />
+          <Image src={TwitterIcon} alt="Twitter" width={25} height={25} />
         </a>
         <a
           target="_blank"
           rel="noreferrer"
           href="https://github.com/rishabh6512"
-          className="text-gray-300 hover:text-white transition-colors"
+          className="transition-transform hover:scale-110"
         >
-          <FaGithub size={25} />
+          <Image src={GithubIcon} alt="GitHub" width={25} height={25} />
         </a>
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://www.linkedin.com/in/rishabh651200/"
-          className="text-gray-300 hover:text-[#0A66C2] transition-colors"
+          href="https://www.linkedin.com/in/rishabh-sharma-b690b0384/"
+          className="transition-transform hover:scale-110"
         >
-          <FaLinkedin size={25} />
+          <Image src={LinkedinIcon} alt="LinkedIn" width={25} height={25} />
         </a>
       </div>
     </div>
