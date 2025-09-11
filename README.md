@@ -41,7 +41,7 @@ Welcome to my **personal portfolio website**! This project showcases my skills, 
 │   ├── 🏠 page.jsx
 │   ├── 📦 projects/page.jsx
 │   └── 🛠 uses/page.jsx
-├── 📂 assets
+├── 📂 assets (SVGs & Images)
 ├── 📂 components
 │   ├── 💻 aboutSection.jsx
 │   ├── 📰 blogsSection.jsx
