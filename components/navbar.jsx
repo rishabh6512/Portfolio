@@ -15,9 +15,8 @@ const Tab = ({ href, label, selected, setSelected }) => {
           x: { duration: 0.3 },
         }}
         onClick={() => setSelected(href)}
-        className={`relative rounded-md px-2 py-1 text-sm  transition-colors ${
-          selected ? "text-white" : "text-gray-500"
-        }`}
+        className={`relative rounded-md px-2 py-1 text-sm transition-colors cursor-pointer ${selected ? "text-white" : "text-gray-400 hover:text-gray-200"
+          }`}
       >
         <span className="relative z-10">{label}</span>
         {selected && (

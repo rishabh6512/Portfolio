@@ -12,15 +12,15 @@ export default function Profile() {
         <Image
           src={ProfileImage}
           alt="Rishabh Sharma - Fresher"
-          className="rounded-full object-cover w-[100px] h-[100px] border-2 border-gray-200"
+          className="rounded-full object-cover w-[100px] h-[100px] border-2"
           priority
         />
       </div>
 
-      <h1 className="font-medium text-gray-900 mt-2 text-xl font-heading">
+      <h1 className="font-medium text-gray-100 mt-2 text-xl font-heading">
         Rishabh Sharma
       </h1>
-      <p className="text-gray-500">Fresher</p>
+      <p className="text-gray-400">Fresher</p>
     </div>
   );
 }
