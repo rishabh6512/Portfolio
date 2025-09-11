@@ -86,9 +86,9 @@ function Toast({ showToast }) {
       {showToast && (
         <motion.div
           initial={{ opacity: 0, y: -50 }}
-          animate={{ opacity: 1, y: 0 }}
+          animate={{ opacity: 1, y: 20 }}
           exit={{ opacity: 0, y: -50, transition: { ease: "easeOut", duration: 0.3 } }}
-          className="fixed top-5 z-50 flex items-center bg-blue-900 border border-blue-800 rounded-lg shadow-lg p-4"
+          className="fixed top-5 left-0 right-0 mx-auto w-max z-50 flex items-center bg-gray-800 border border-gray-700 rounded-lg shadow-lg p-4"
         >
           <p className="text-gray-200 font-medium">
             🚧 Project still in progress! ⏳
