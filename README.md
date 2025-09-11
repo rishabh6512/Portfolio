@@ -7,7 +7,6 @@ Welcome to my **personal portfolio website**! This project showcases my skills, 
 ## ✨ Features
 
 - 💻 Fully responsive design  
-- 🌈 Animated gradient background in the About section  
 - 🕒 Experience timeline  
 - 🛠️ Skills section with lazy-loaded SVG icons  
 - 📩 Contact form with validation and toast notifications  
