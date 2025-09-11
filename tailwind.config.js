@@ -9,6 +9,9 @@ module.exports = {
     extend: {
       color: {
         darkBlue: '#020817',
+      },
+      animation: {
+        "spin-slow": "spin 1s linear infinite",
       }
     },
   },
