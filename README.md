@@ -20,7 +20,7 @@ Welcome to my **personal portfolio website**! This project showcases my skills, 
 - **Tailwind CSS**  
 - **Framer Motion**  
 - **Node.js** & **MySQL**  
-- Lazy-loaded SVGs for fast rendering ⚡  
+- **Lazy-loaded SVGs for fast rendering** ⚡  
 
 ---
 
